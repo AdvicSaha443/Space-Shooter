@@ -83,7 +83,7 @@ function draw() {
 
   if (gameState === "start") {
     textSize(50);
-    text("Space Shooter", 350, 100);
+    text("Space Shooter Game", 350, 100);
     spaceShip.addImage(spaceShipimg);
     score = 0;
     var HPS = 100;
